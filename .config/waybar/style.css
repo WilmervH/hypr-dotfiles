@@ -1,0 +1,139 @@
+* {
+    border: none;
+    font-family: MesloLG Nerd Font;
+    min-height: 20px;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+#custom-launcher {
+    margin-right: 4px;
+    margin-left: 4px;
+    border-radius: 10px;
+    padding-right: 13px;
+    transition: none;
+    color: white;
+    background-color: #A57661;
+}
+
+#workspaces {
+    background-color: #383c4a;
+    border-radius: 10px;
+}
+
+#workspaces button {
+  color: white;
+  border-radius: 10;
+}
+
+#workspaces button.active {
+  background-color: green;
+}
+
+#workspaces button:hover {
+  color: black;
+}
+
+#window {
+  background-color: #383c4a;
+  border-radius: 10px;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+#clock {
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 10px 0px 0px 10px;
+    margin-right: 0;
+    margin-left: 0;
+    transition: none;
+    color: white;
+    background-color: #383c4a;
+}
+
+#custom-weather {
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 0px 10px 10px 0px;
+    margin-right: 0;
+    margin-left: -4px;
+    transition: none;
+    color: white;
+    background-color: #383c4a;
+}
+
+#pulseaudio {
+    margin-right: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 10px;
+    transition: none;
+    color: #1A1A1A;
+    background: #DCDDFA;
+}
+
+#pulseaudio.muted {
+    background-color: #90b1b1;
+    color: #2a5c45;
+}
+
+#cpu {
+    margin-right: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 10px;
+    transition: none;
+    color: #1A1A1A;
+    background: #D5F4ED;
+}
+
+#memory {
+    margin-right: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 10px;
+    transition: none;
+    color: #1A1A1A;
+    background: #F2D5F5;
+}
+
+
+#temperature {
+    margin-right: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 10px;
+    transition: none;
+    color: #1A1A1A;
+    background: #F5EDD5;
+}
+
+#temperature.critical {
+    background-color: #eb4d4b;
+}
+
+#tray {
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 10px;
+    color: white;
+    background-color: #383c4a;
+}
+
+#network {
+    margin-right: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 10px;
+    transition: none;
+    color: #1A1A1A;
+    background: #E5FADC; 
+}
